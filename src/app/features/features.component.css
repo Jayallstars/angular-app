@@ -1,0 +1,29 @@
+.feature-container {
+    position: relative;
+    height: 100vh;
+    background-image: url('../../../public/assets/images/features-page-bg-image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(47, 24, 147, 0.5);
+    z-index: 1;
+    margin-top: 0;
+}
+
+.left-img {
+    position: absolute;
+    z-index: 2;
+    height: 80%;
+    display: block;
+    top: 50%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+}

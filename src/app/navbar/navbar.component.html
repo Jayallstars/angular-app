@@ -1,0 +1,12 @@
+<nav class="z-10 relative">
+    <div class="">
+        <ul class="flex items-center justify-center space-x-10 py-6">
+            <li *ngFor="let item of menuItems">
+                <a [routerLink]="item.route" routerLinkActive="active"
+                    class="text-white cursor-pointer hover:text-gray-300">
+                    {{ item.label }}
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
