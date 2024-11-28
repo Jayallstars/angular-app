@@ -1,0 +1,8 @@
+{
+  "routes": {
+    "/angular-app": {},
+    "/angular-app/blog": {},
+    "/angular-app/features": {},
+    "/angular-app/pricing": {}
+  }
+}
